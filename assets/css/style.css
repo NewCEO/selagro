@@ -401,7 +401,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #hero h2 {
-  color: #fff;
+  color: #428bca;
   margin-bottom: 30px;
   font-size: 48px;
   font-weight: 900;
@@ -412,6 +412,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   color: #fff;
+  font-weight: 800;
 }
 
 #hero .carousel-inner .carousel-item {
@@ -536,10 +537,10 @@ section {
   padding: 15px 0;
 }
 
-.about .section-title p {
+.about .section-title h4 {
   text-align: left;
-  font-style: italic;
-  color: #666;
+  /* font-style: italic; */
+  color: black;
 }
 
 .about .about-content {
