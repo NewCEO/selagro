@@ -144,156 +144,361 @@
   <!-- End Hero -->
 
   <main id="main">
-    
-    <nav class="bg-color">Adaptive tabs</nav>
-
-    <section class="wrapper">
-        <ul class="tabs">
-            <li class="active">AGENTS</li>
-            <!-- <li>Favorite movies</li> -->
-            <li>About</li>
-        </ul>
-    
-        <ul class="tab__content">
-            <li class="active">
-                <div class="content__wrapper">
-                    <section id="contact" class="contact">
-                        <div class="container">
-                          <div class="row">
-                            <div class="col-lg-12" data-aos="fade-up" data-aos-delay="300">
-                              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                                <div class="section-title">
-                                    <h2>Agents Form</h2>
-                                  </div>
-                                <div class="form-row">
-                                  <div class="col-lg-6 form-group">
-                                    <input type="text" name="name" class="form-control" id="name" placeholder="First name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                                    <div class="validate"></div>
-                                  </div>
-
-                                  <div class="col-lg-6 form-group">
-                                    <input type="text" name="name" class="form-control" id="name" placeholder="Last name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                                    <div class="validate"></div>
-                                  </div>
-
-                                  <div class="col-lg-6 form-group">
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                                    <div class="validate"></div>
-                                  </div>
-
-                                  <div class="col-lg-6 form-group">
-                                    <input type="tel" class="form-control" name="phone no" id="phone no" placeholder="Phone Number" data-rule="email" data-msg="Please enter a valid email" />
-                                    <div class="validate"></div>
-                                  </div>
-                                  <div class="col-lg-6 form-group">
-                                    <input type="text" name="state_of_origin" class="form-control" id="state_of_origin" placeholder="State of Origin" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                                    <div class="validate"></div>
-                                  </div>
-                                  <div class="col-lg-6 form-group">
-                                    <input type="text" name="LGA" class="form-control" id="LGA" placeholder="LGA" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                                    <div class="validate"></div>
-                                  </div>
-                                </div>
-                                <div class="form-group">
-                                  <input type="text" class="form-control" name="Address" id="Address" placeholder="Residential address" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                                  <div class="validate"></div>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" name="Address" id="Address" placeholder="Permanent address" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                                    <div class="validate"></div>
-                                  </div>
-                                <!-- <div class="form-group">
-                                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                                  <div class="validate"></div>
-                                </div> -->
-                             
-
-
-                              <div class="section-title mt-5">
-                                <h2>Employment History</h2>
-                              </div>
-                      
-                              <div class="row">
-                                <div class="col-lg-12" data-aos="fade-up" data-aos-delay="300">
-                                    <div class="form-row">
-                                      <div class="col-lg-6 form-group">
-                                        <input type="text" name="employer" class="form-control" id="employer" placeholder="Current Employer" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                                        <div class="validate"></div>
-                                      </div>
-    
-                                      <div class="col-lg-6 form-group">
-                                        <input type="text" name="employer" class="form-control" id="employer" placeholder="Position" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                                        <div class="validate"></div>
-                                      </div>
-    
-                                      <!-- <div class="col-lg-6 form-group">
-                                        <input type="em" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                                        <div class="validate"></div>
-                                      </div> -->
-    
-                                      <!-- <div class="col-lg-6 form-group">
-                                        <input type="tel" class="form-control" name="phone no" id="phone no" placeholder="Phone Number" data-rule="email" data-msg="Please enter a valid email" />
-                                        <div class="validate"></div>
-                                      </div>
-                                      <div class="col-lg-6 form-group">
-                                        <input type="text" name="state_of_origin" class="form-control" id="state_of_origin" placeholder="State of Origin" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                                        <div class="validate"></div>
-                                      </div>
-                                      <div class="col-lg-6 form-group">
-                                        <input type="text" name="LGA" class="form-control" id="LGA" placeholder="LGA" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                                        <div class="validate"></div>
-                                      </div> -->
-                                    </div>
-                                    <div class="form-group">
-                                      <input type="text" class="form-control" name="Address" id="Address" placeholder="Address" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                                      <div class="validate"></div>
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" name="Address" id="Address" placeholder="Permanent address" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                                        <div class="validate"></div>
-                                      </div>
-                                    <!-- <div class="form-group">
-                                      <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                                      <div class="validate"></div>
-                                    </div> -->
-                                    <div class="mb-3">
-                                      <div class="loading">Loading</div>
-                                      <div class="error-message"></div>
-                                      <div class="sent-message">Your message has been sent. Thank you!</div>
-                                    </div>
-                                    <div class="text-center"><button type="submit">Send Message</button></div>
-                                  </form>
-
-                            </div>
-                  
-                          </div>
-                  
+    <div class="container">
+      <div class="nav flex-column nav-pills text-center mt-5" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+        <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">AGENTS</a>
+        <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">FARMERS</a>
+      </div>
+      <div class="tab-content" id="v-pills-tabContent">
+        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"> 
+       <section id="contact" class="contact">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12" data-aos="fade-up" data-aos-delay="300">
+                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                  <div class="section-title">
+                      <h2>Agents Form</h2>
+                    </div>
+                  <div class="form-row">
+                    <div class="col-lg-6 form-group">
+                      <input type="text" name="name" class="form-control" id="name" placeholder="First name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                      <div class="validate"></div>
+                    </div>
+  
+                    <div class="col-lg-6 form-group">
+                      <input type="text" name="name" class="form-control" id="name" placeholder="Last name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                      <div class="validate"></div>
+                    </div>
+  
+                    <div class="col-lg-6 form-group">
+                      <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                      <div class="validate"></div>
+                    </div>
+  
+                    <div class="col-lg-6 form-group">
+                      <input type="tel" class="form-control" name="phone no" id="phone no" placeholder="Phone Number" data-rule="email" data-msg="Please enter a valid email" />
+                      <div class="validate"></div>
+                    </div>
+                    <div class="col-lg-6 form-group">
+                      <input type="text" name="state_of_origin" class="form-control" id="state_of_origin" placeholder="State of Origin" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                      <div class="validate"></div>
+                    </div>
+                    <div class="col-lg-6 form-group">
+                      <input type="text" name="LGA" class="form-control" id="LGA" placeholder="LGA" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                      <div class="validate"></div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="Address" id="Address" placeholder="Residential address" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                    <div class="validate"></div>
+                  </div>
+                  <div class="form-group">
+                      <input type="text" class="form-control" name="Address" id="Address" placeholder="Permanent address" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                      <div class="validate"></div>
+                    </div>
+             
+  
+                <div class="section-title mt-5">
+                  <h2>Employment History</h2>
+                </div>
+        
+                <div class="row">
+                  <div class="col-lg-12" data-aos="fade-up" data-aos-delay="300">
+                      <div class="form-row">
+                        <div class="col-lg-6 form-group">
+                          <input type="text" name="employer" class="form-control" id="employer" placeholder="Current Employer" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                          <div class="validate"></div>
                         </div>
-                      </section>
-                </div>
-            </li>
-            <li>
-                <div class="content__wrapper">
-                    <h2 class="text-color">Her</h2>
-                    
-                    <img src="http://lewihussey.com/codepen-img/her.jpg">
-                </div>
-            </li>
-            <li>
-                <div class="content__wrapper">
-                    <h2 class="text-color">About</h2>
-                    
-                    <p>Created by <a class="text-color" href="http://lewihussey.com" target="_blank">Lewi Hussey</a></p>
-                </div>
-            </li>
-        </ul>
-    </section>
+  
+                        <div class="col-lg-6 form-group">
+                          <input type="text" name="employer" class="form-control" id="employer" placeholder="Position" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                          <div class="validate"></div>
+                        </div>
+  
+                      </div>
+                      <div class="form-group">
+                        <input type="text" class="form-control" name="Address" id="Address" placeholder="Address" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                        <div class="validate"></div>
+                      </div>
+                      <div class="form-group">
+                          <input type="text" class="form-control" name="Address" id="Address" placeholder="Permanent address" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                          <div class="validate"></div>
+                        </div>
+                        <div class="form-group">
+                          <input type="text" class="form-control" name="Address" id="Address" placeholder="Previous Employment" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                          <div class="validate"></div>
+                        </div>
+                        <div class="section-title"><h2>Focus Agro Commodity</h2></div>
+                        <div class="col-sm-10" style="margin: auto;">
+                          <div class="form-check form-check-inline form-group">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">Cashew</label>
+                          </div>
+                          <div class="form-check form-check-inline form-group">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">Soybeans</label>
+                          </div>
+                          <div class="form-check form-check-inline form-group">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                            <label class="form-check-label" for="inlineCheckbox3">Groundnut</label>
+                          </div>
+                          <div class="form-check form-check-inline form-group">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                            <label class="form-check-label" for="inlineCheckbox3">Sesame</label>
+                          </div>
+                          <div class="form-check form-check-inline form-group">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                            <label class="form-check-label" for="inlineCheckbox3">Cassia Tora Seeds</label>
+                          </div>
+                          <div class="form-check form-check-inline form-group">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                            <label class="form-check-label" for="inlineCheckbox3">Cereals</label>
+                          </div>
+                          <div class="form-check form-check-inline form-group">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                            <label class="form-check-label" for="inlineCheckbox3">Sorghum</label>
+                          </div>
+                          <div class="form-check form-check-inline form-group">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                            <label class="form-check-label" for="inlineCheckbox3">Millet</label>
+                          </div>
+                          <div class="form-check form-check-inline form-group">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                            <label class="form-check-label" for="inlineCheckbox3">Hibiscus</label>
+                          </div>
+                          <div class="form-check form-check-inline form-group">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                            <label class="form-check-label" for="inlineCheckbox3">Moringa Leaves</label>
+                          </div>
+                          <div class="form-check form-check-inline form-group">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                            <label class="form-check-label" for="inlineCheckbox3">Mungbeans</label>
+                          </div>
+                          <div class="form-check form-check-inline form-group">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                            <label class="form-check-label" for="inlineCheckbox3">Cowpea</label>
+                          </div>
+                          <div class="form-check form-check-inline form-group">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                            <label class="form-check-label" for="inlineCheckbox3">Dried chilli pepper</label>
+                          </div>
+                          <div class="form-check form-check-inline form-group">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                            <label class="form-check-label" for="inlineCheckbox3">Turmeric Powder</label>
+                          </div>
+                          <div class="form-check form-check-inline form-group">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                            <label class="form-check-label" for="inlineCheckbox3">Onion flakes and powder</label>
+                          </div>
+                          <div class="form-check form-check-inline form-group">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                            <label class="form-check-label" for="inlineCheckbox3">Split dried ginger</label>
+                          </div>
+                          <div class="form-check form-check-inline form-group">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                            <label class="form-check-label" for="inlineCheckbox3">Sheanut</label>
+                          </div>
+                          <div class="form-check form-check-inline form-group">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                            <label class="form-check-label" for="inlineCheckbox3">Cocoa</label>
+                          </div>
+                          <div class="form-check form-check-inline form-group">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                            <label class="form-check-label" for="inlineCheckbox3">Gum arabic</label>
+                          </div>
+                          <div class="form-check form-check-inline form-group">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                            <label class="form-check-label" for="inlineCheckbox3">Palm kernel shells</label>
+                          </div>
+                        </div>
+                       
+                      <div class="mb-3">
+                        <div class="loading">Loading</div>
+                        <div class="error-message"></div>
+                        <div class="sent-message">Your message has been sent. Thank you!</div>
+                      </div>
+                      <div class="text-center"><button type="submit">Submit</button></div>
+                    </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"> <section id="contact" class="contact">
+          <div class="container">
     
-    <footer>By Lewi Hussey</footer>
+            <div class="section-title">
+              <h2>Farmers Form</h2>
+            </div>
     
-   
-
-</main><!-- End #main -->
+            <div class="row">
+    
+              <div class="col-lg-12" data-aos="fade-up" data-aos-delay="300">
+                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                  <div class="form-row">
+                    <div class="col-lg-6 form-group">
+                      <input type="text" name="name" class="form-control" id="name" placeholder="Farmers Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                      <div class="validate"></div>
+                    </div>
+                    <div class="col-lg-6 form-group">
+                      <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                      <div class="validate"></div>
+                    </div>
+                    <div class="col-lg-6 form-group">
+                      <input type="tel" class="form-control" name="phone no" id="phone no" placeholder="Phone Number" data-rule="Tel" data-msg="Please enter a valid Phone Number" />
+                      <div class="validate"></div>
+                    </div>
+                    <div class="col-lg-6 form-group">
+                      <input type="text" name="state_of_origin" class="form-control" id="state_of_origin" placeholder="State of Origin" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                      <div class="validate"></div>
+                    </div>
+                    <div class="col-lg-6 form-group">
+                      <input type="text" name="LGA" class="form-control" id="LGA" placeholder="LGA" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                      <div class="validate"></div>
+                    </div>
+                    <div class="col-lg-6 form-group">
+                      <input type="text" class="form-control" name="Address" id="Address" placeholder="Address" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                      <div class="validate"></div>
+                    </div>
+                    <div class="col-lg-6 form-group">
+                      <input type="tel" class="form-control" name="code" id="code" placeholder="Agent Source Code" data-rule="Tel" data-msg="Please enter a valid Agent code" />
+                      <div class="validate"></div>
+                    </div>
+                    <div class="form-group col-lg-6">
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Do you have a warehouse</option>
+                        <option>Yes</option>
+                        <option>No</option>
+                      </select>
+                    </div>
+                   
+                    <div class="col-sm-10" style="margin: auto;">
+                      <div class="section-title"><h2>Focus Agro Commodity</h2></div>
+                      <div class="form-check form-check-inline form-group">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">Cashew</label>
+                      </div>
+                      <div class="form-check form-check-inline form-group">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox2">Soybeans</label>
+                      </div>
+                      <div class="form-check form-check-inline form-group">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                        <label class="form-check-label" for="inlineCheckbox3">Groundnut</label>
+                      </div>
+                      <div class="form-check form-check-inline form-group">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                        <label class="form-check-label" for="inlineCheckbox3">Sesame</label>
+                      </div>
+                      <div class="form-check form-check-inline form-group">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                        <label class="form-check-label" for="inlineCheckbox3">Cassia Tora Seeds</label>
+                      </div>
+                      <div class="form-check form-check-inline form-group">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                        <label class="form-check-label" for="inlineCheckbox3">Cereals</label>
+                      </div>
+                      <div class="form-check form-check-inline form-group">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                        <label class="form-check-label" for="inlineCheckbox3">Sorghum</label>
+                      </div>
+                      <div class="form-check form-check-inline form-group">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                        <label class="form-check-label" for="inlineCheckbox3">Millet</label>
+                      </div>
+                      <div class="form-check form-check-inline form-group">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                        <label class="form-check-label" for="inlineCheckbox3">Hibiscus</label>
+                      </div>
+                      <div class="form-check form-check-inline form-group">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                        <label class="form-check-label" for="inlineCheckbox3">Moringa Leaves</label>
+                      </div>
+                      <div class="form-check form-check-inline form-group">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                        <label class="form-check-label" for="inlineCheckbox3">Mungbeans</label>
+                      </div>
+                      <div class="form-check form-check-inline form-group">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                        <label class="form-check-label" for="inlineCheckbox3">Cowpea</label>
+                      </div>
+                      <div class="form-check form-check-inline form-group">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                        <label class="form-check-label" for="inlineCheckbox3">Dried chilli pepper</label>
+                      </div>
+                      <div class="form-check form-check-inline form-group">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                        <label class="form-check-label" for="inlineCheckbox3">Turmeric Powder</label>
+                      </div>
+                      <div class="form-check form-check-inline form-group">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                        <label class="form-check-label" for="inlineCheckbox3">Onion flakes and powder</label>
+                      </div>
+                      <div class="form-check form-check-inline form-group">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                        <label class="form-check-label" for="inlineCheckbox3">Split dried ginger</label>
+                      </div>
+                      <div class="form-check form-check-inline form-group">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                        <label class="form-check-label" for="inlineCheckbox3">Sheanut</label>
+                      </div>
+                      <div class="form-check form-check-inline form-group">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                        <label class="form-check-label" for="inlineCheckbox3">Cocoa</label>
+                      </div>
+                      <div class="form-check form-check-inline form-group">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                        <label class="form-check-label" for="inlineCheckbox3">Gum arabic</label>
+                      </div>
+                      <div class="form-check form-check-inline form-group">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                        <label class="form-check-label" for="inlineCheckbox3">Palm kernel shells</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">Farm Capacity</span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                    <div class="input-group-append">
+                      <span class="input-group-text">Acres</span>
+                    </div>
+                  </div>
+                  <div class="input-group mb-3 col-lg-6">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">Supply capacity</span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                    <div class="input-group-append">
+                      <span class="input-group-text">Bags/tons</span>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 form-group">
+                    <input type="text" class="form-control" name="Address" id="Address" placeholder="Address of warehouse" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                    <div class="validate"></div>
+                  </div>
+                  <div class="form-group">
+                    <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Kindly summarize how you operate and how you want Selagro logistics to partner with your business."></textarea>
+                    <div class="validate"></div>
+                  </div>
+                  <div class="mb-3">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                  </div>
+                  <div class="text-center"><button type="submit">Send Message</button></div>
+                </form>
+              </div>
+    
+            </div>
+    
+          </div>
+        </section></div>
+      </div>
+    </div>
+</main>
+<!-- End #main -->
 
 <!-- ======= Footer ======= -->
 <footer id="footer">
