@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   border-radius: 3px;
   right: 15px;
   bottom: 15px;
-  background: #428bca;
+  background: #ffcf01;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #1a4d3e;
+  background: #50c878;
   padding: 10px 0;
   border-bottom: 1px solid #eee;
   font-size: 14px;
@@ -145,7 +145,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #1a4d3e;
+  color: #50c878;
   padding: 12px 15px;
   transition: 0.3s;
   font-size: 14px;
@@ -393,7 +393,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #hero h2 {
-  color: #ffcf01;
+  color: #50c878;
   margin-bottom: 30px;
   font-size: 48px;
   font-weight: 900;
@@ -403,7 +403,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   width: 80%;
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
-  color: #ffcf01;
+  color: #50c878;
   font-weight: 800;
 }
 
@@ -464,11 +464,11 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   border: 0;
-  background: #ffcf01;
+  background: #50c878;
 }
 
 #hero .btn-get-started:hover {
-  background: #1c5c93;
+  background: #ffcf01;
 }
 
 @media (max-width: 768px) {
@@ -507,11 +507,12 @@ section {
   font-weight: 600;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #1a4d3e;
+  color: #50c878;
 }
 
 .section-title p {
   margin-bottom: 0;
+  font-family: "Raleway", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -550,13 +551,13 @@ section {
   justify-content: center;
   width: 72px;
   height: 72px;
-  background: #ffcf01;
+  background: #50c878;
   border-radius: 6px;
   transition: 0.5s;
 }
 
 .about .icon-box .icon i {
-  color: #fff;
+  color: #ffcf01;
   font-size: 32px;
 }
 
@@ -588,7 +589,7 @@ section {
 .about .icon-box .description {
   margin-left: 95px;
   line-height: 24px;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .about .video-box {
@@ -799,7 +800,7 @@ section {
   background: #fff;
   border-radius: 50%;
   transition: 0.5s;
-  color: #ffcf01;
+  color: #50c878;
   font-size: 40px;
   overflow: hidden;
   padding-top: 20px;
@@ -840,7 +841,7 @@ section {
 
 .services .description {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 /*--------------------------------------------------------------
@@ -870,10 +871,11 @@ section {
   background: #fff;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
+  font-family: "Raleway", sans-serif;
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  background: #1a4d3e;
+  background: #50c878;
   color: #fff;
 }
 
@@ -1065,25 +1067,26 @@ section {
 # Contact Us
 --------------------------------------------------------------*/
 .contact .info-box {
-  color: #444;
+  color: #fff;
   text-align: center;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 20px 0 30px 0;
   margin-bottom: 30px;
   width: 100%;
+  background-color: #50c878;
 }
 
 .contact .info-box i {
   font-size: 32px;
-  color: #ffcf01;
+  color: #fff;
   border-radius: 50%;
   padding: 8px;
-  border: 2px dotted #ffcf01;
+  border: 2px dotted #fff;
 }
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: #666;
+  color: #fff;
   font-weight: 700;
   margin: 10px 0;
 }
@@ -1093,6 +1096,7 @@ section {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+  font-family: "Raleway", sans-serif;
 }
 
 .contact .php-email-form {
@@ -1158,18 +1162,21 @@ section {
 
 .contact .php-email-form input {
   padding: 20px 15px;
+  font-family: "Raleway", sans-serif;
 }
 
 .contact .php-email-form textarea {
   padding: 12px 15px;
+  font-family: "Raleway", sans-serif;
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #ffcf01;
+  background: #50c878;
   border: 0;
   padding: 10px 24px;
   color: #fff;
   transition: 0.4s;
+  font-family: "Raleway", sans-serif;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
@@ -1202,7 +1209,7 @@ section {
 }
 
 #footer .footer-top {
-  background: #1a4d3e;
+  background: #50c878;
   border-top: 1px solid #768fa6;
   border-bottom: 1px solid #67839c;
   padding: 60px 0 30px 0;
@@ -1290,6 +1297,7 @@ section {
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
+  font-family: "Raleway", sans-serif;
 }
 
 #footer .footer-top .footer-links ul a:hover {
@@ -1347,7 +1355,7 @@ section {
 
 /*my icon*/
 .icons{
-  color: #ffcf01;
+  color: #50c878;
   font-size: 28px;
   padding-right: 3px;
 }
@@ -1367,4 +1375,12 @@ section {
   line-height: 24px;
   font-size: 14px;
   justify-content: center;
+}
+
+.color{
+  color: #ffcf01;
+}
+
+.bg-color{
+  background-color: #50c878 !important;
 }
